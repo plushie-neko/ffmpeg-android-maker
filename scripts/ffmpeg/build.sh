@@ -58,6 +58,7 @@ EXTRA_LDFLAGS="-Wl,-z,max-page-size=16384 $DEP_LD_FLAGS"
   --disable-devices \
   --disable-debug \
   --disable-decoders \
+  --enable-decoder=aac,aac_fixed,alac,flac,opus,vorbis,pcm_s16le,pcm_s16be,pcm_s24be,pcm_s24le,pcm_s32be,pcm_s32le,mp3,mp3_float \
   --disable-postproc \
   --disable-network \
   --disable-parsers \
