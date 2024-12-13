@@ -20,4 +20,4 @@ jobs:
           export ANDROID_SDK_HOME=$ANDROID_HOME
           export ANDROID_NDK_HOME=$ANDROID_NDK_LATEST_HOME
           ./ffmpeg-android-maker.sh -all-free -all-gpl -android=24 -abis=${{ matrix.abi }}
-          find . -name "*.aar"
+      - run: find . -name "*.aar"
